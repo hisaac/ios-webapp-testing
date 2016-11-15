@@ -1,5 +1,6 @@
 $(document).ready(function () {
-  if (window.Navigator.standalone === false) {
+  console.log(window.navigator.standalone);
+  if (window.navigator.standalone === false) {
     $('#container').html('<p>It works</p>');
   }
 });
