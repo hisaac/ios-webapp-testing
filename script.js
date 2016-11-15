@@ -1,3 +1,5 @@
-if (window.navigator.standalone === false) {
-  $('#container').append('<p>It works</p>');
-}
+$(document).ready(function () {
+  if (window.Navigator.standalone === false) {
+    $('#container').html('<p>It works</p>');
+  }
+});
